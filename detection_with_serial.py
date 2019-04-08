@@ -29,4 +29,5 @@ while True:
  except KeyboardInterrupt:
   break
 cap.release()
+ser.close()
 cv.destroyAllWindows()
